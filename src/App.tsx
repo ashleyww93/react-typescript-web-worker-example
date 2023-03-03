@@ -84,10 +84,10 @@ function App() {
           Long Running Operation (60s)
         </button>
         <h3>Non-blocking Operations (Web Workers)</h3>
-        <button className="btn" onClick={() => runWebWorkerOperation(10)}>
+        <button className="btn2" onClick={() => runWebWorkerOperation(10)}>
           Long Running Operation (10s)
         </button>
-        <button className="btn" onClick={() => runWebWorkerOperation(60)}>
+        <button className="btn2" onClick={() => runWebWorkerOperation(60)}>
           Long Running Operation (60s)
         </button>
       </div>
